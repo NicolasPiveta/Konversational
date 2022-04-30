@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Can request replacemente or repairs in the Issues app</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_703590_request_0.items requestor</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>items requestor</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-29 18:29:11</sys_created_on>
+        <sys_id>fd7d2bd387cb01104db563d73cbb359f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_703590_request_0.items requestor</sys_name>
+        <sys_package display_value="Request for broken/damaged item" source="x_703590_request_0">0029ef9f878b01104db563d73cbb355b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request for broken/damaged item">0029ef9f878b01104db563d73cbb355b</sys_scope>
+        <sys_update_name>sys_user_role_fd7d2bd387cb01104db563d73cbb359f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-29 18:29:11</sys_updated_on>
+    </sys_user_role>
+</record_update>

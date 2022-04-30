@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="Request for broken/damaged item">4d6b27530acb0110cf9aeb1c3725f852</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Search Page">816b27536bcb01100b920c828b549c5e</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-04-29 18:20:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>016b27535bcb011018a0e919678f0155</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Request for broken/damaged item" source="x_703590_request_0">0029ef9f878b01104db563d73cbb355b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request for broken/damaged item">0029ef9f878b01104db563d73cbb355b</sys_scope>
+        <sys_update_name>sys_ux_page_property_016b27535bcb011018a0e919678f0155</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-04-29 18:20:13</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_703590_request_0.4d6b27530acb0110cf9aeb1c3725f852.route.chrome_header.816b27536bcb01100b920c828b549c5e</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}&#13;
+</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=016b27535bcb011018a0e919678f0155"/>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_pipeline_pipeline">
+    <sn_pipeline_pipeline action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <name>test pipeline</name>
+        <pipeline_type display_value="test">1b8cdb27878b41104db563d73cbb351b</pipeline_type>
+        <source_environment display_value="Test Instance">005c9367878b41104db563d73cbb35d0</source_environment>
+        <sys_class_name>sn_pipeline_pipeline</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-30 11:54:50</sys_created_on>
+        <sys_id>facc5b67878b41104db563d73cbb354c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test pipeline</sys_name>
+        <sys_package display_value="Request for broken/damaged item" source="x_703590_request_0">0029ef9f878b01104db563d73cbb355b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request for broken/damaged item">0029ef9f878b01104db563d73cbb355b</sys_scope>
+        <sys_update_name>sn_pipeline_pipeline_facc5b67878b41104db563d73cbb354c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-30 11:54:50</sys_updated_on>
+    </sn_pipeline_pipeline>
+</record_update>

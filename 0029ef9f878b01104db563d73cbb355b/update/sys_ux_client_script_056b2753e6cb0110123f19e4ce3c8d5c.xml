@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Landing Page">016b2753c4cb0110586526c276546b61</macroponent>
+        <name>Request page redirection</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+     const {
+        state,
+        emit,
+        data
+    } = api;
+    let sysId = "";
+    const table = "task";
+    try {
+        sysId = data.look_up_record_2.result.task.value;
+        if (state.producedRecordSysId && sysId) {
+            api.setState("producedRecordSysId","");  
+            emit('NAV_ITEM_SELECTED', {
+                route: "record_request",
+                fields: {
+                    table,
+                    sysId
+                }
+            });
+        }
+    } catch (e) {}
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-04-29 18:20:11</sys_created_on>
+        <sys_id>056b2753e6cb0110123f19e4ce3c8d5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request page redirection</sys_name>
+        <sys_package display_value="Request for broken/damaged item" source="x_703590_request_0">0029ef9f878b01104db563d73cbb355b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request for broken/damaged item">0029ef9f878b01104db563d73cbb355b</sys_scope>
+        <sys_update_name>sys_ux_client_script_056b2753e6cb0110123f19e4ce3c8d5c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-04-29 18:20:11</sys_updated_on>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

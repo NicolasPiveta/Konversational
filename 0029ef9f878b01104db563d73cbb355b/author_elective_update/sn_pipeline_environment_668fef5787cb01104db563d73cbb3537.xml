@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_pipeline_environment">
+    <sn_pipeline_environment action="DELETE">
+        <instance_credential display_value="sn_docker_spoke.Docker">adf80925db0bd300dd14596e5e96198c</instance_credential>
+        <instance_id>Validation Failed: Please check the URL and credentials</instance_id>
+        <instance_type>dev</instance_type>
+        <instance_url>https://dev104367.service-now.com/now/appenginestudio/my-apps/0029ef9f878b01104db563d73cbb355b</instance_url>
+        <is_controller>false</is_controller>
+        <name>app studio</name>
+        <sys_class_name>sn_pipeline_environment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-29 18:40:14</sys_created_on>
+        <sys_id>668fef5787cb01104db563d73cbb3537</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>app studio</sys_name>
+        <sys_package display_value="Request for broken/damaged item" source="x_703590_request_0">0029ef9f878b01104db563d73cbb355b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request for broken/damaged item">0029ef9f878b01104db563d73cbb355b</sys_scope>
+        <sys_update_name>sn_pipeline_environment_668fef5787cb01104db563d73cbb3537</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-04-30 03:00:18</sys_updated_on>
+    </sn_pipeline_environment>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request for broken/damaged item">0029ef9f878b01104db563d73cbb355b</application>
+        <file_path/>
+        <instance_id>787a408fdbf894d0431011f84896192c</instance_id>
+        <instance_name>dev104367</instance_name>
+        <name>sn_pipeline_environment_668fef5787cb01104db563d73cbb3537</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_pipeline_environment"><sn_pipeline_environment action="INSERT_OR_UPDATE"><instance_credential display_value="sn_docker_spoke.Docker">adf80925db0bd300dd14596e5e96198c</instance_credential><instance_id>Validation Failed: Please check the URL and credentials</instance_id><instance_type>dev</instance_type><instance_url>https://dev104367.service-now.com/now/appenginestudio/my-apps/0029ef9f878b01104db563d73cbb355b</instance_url><is_controller>false</is_controller><name>app studio</name><sys_class_name>sn_pipeline_environment</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-29 18:40:14</sys_created_on><sys_id>668fef5787cb01104db563d73cbb3537</sys_id><sys_mod_count>1</sys_mod_count><sys_name>app studio</sys_name><sys_package display_value="Request for broken/damaged item" source="x_703590_request_0">0029ef9f878b01104db563d73cbb355b</sys_package><sys_policy/><sys_scope display_value="Request for broken/damaged item">0029ef9f878b01104db563d73cbb355b</sys_scope><sys_update_name>sn_pipeline_environment_668fef5787cb01104db563d73cbb3537</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-04-30 03:00:18</sys_updated_on></sn_pipeline_environment></record_update>]]></payload>
+        <payload_hash>1477176318</payload_hash>
+        <record_name>app studio</record_name>
+        <reverted_from/>
+        <source>fad8887521920110a866589604c20da8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-04-30 03:00:18</sys_created_on>
+        <sys_id>3472a5ab874341104db563d73cbb35fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1807869736d0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-04-30 03:00:18</sys_updated_on>
+        <type>Environment</type>
+        <update_guid>3c72a5ab144341105a115d4c268042fa</update_guid>
+        <update_guid_history>3c72a5ab144341105a115d4c268042fa:1477176318,efffef5788cb01104ffc907b6084b23d:-1382256165</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="app studio">f7c407a387c741104db563d73cbb35ec</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-30 10:10:02</sys_created_on>
+        <sys_db_object display_value="" name="sn_pipeline_environment">sn_pipeline_environment</sys_db_object>
+        <sys_id>26a5b99a9c434a5c8c93a39a3cb2e610</sys_id>
+        <sys_metadata>668fef5787cb01104db563d73cbb3537</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>app studio</sys_name>
+        <sys_package display_value="Request for broken/damaged item" source="x_703590_request_0">0029ef9f878b01104db563d73cbb355b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Request for broken/damaged item">0029ef9f878b01104db563d73cbb355b</sys_scope>
+        <sys_scope_delete display_value="">1ba3e1ec2ae84d7285997b6eb1b3f7b1</sys_scope_delete>
+        <sys_update_name>sn_pipeline_environment_668fef5787cb01104db563d73cbb3537</sys_update_name>
+        <sys_update_version display_value="sn_pipeline_environment_668fef5787cb01104db563d73cbb3537">3472a5ab874341104db563d73cbb35fb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-30 10:10:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

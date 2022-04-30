@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_pipeline_environment">
+    <sn_pipeline_environment action="DELETE">
+        <instance_credential display_value="sn_docker_spoke.Docker">adf80925db0bd300dd14596e5e96198c</instance_credential>
+        <instance_id>787a408fdbf894d0431011f84896192c</instance_id>
+        <instance_type>dev</instance_type>
+        <instance_url>https://dev104367.service-now.com</instance_url>
+        <is_controller>false</is_controller>
+        <name>Dev environment</name>
+        <sys_class_name>sn_pipeline_environment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-30 10:15:54</sys_created_on>
+        <sys_id>3045c3a387c741104db563d73cbb354c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Dev environment</sys_name>
+        <sys_package display_value="Request for broken/damaged item" source="x_703590_request_0">0029ef9f878b01104db563d73cbb355b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request for broken/damaged item">0029ef9f878b01104db563d73cbb355b</sys_scope>
+        <sys_update_name>sn_pipeline_environment_3045c3a387c741104db563d73cbb354c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-30 10:16:09</sys_updated_on>
+    </sn_pipeline_environment>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request for broken/damaged item">0029ef9f878b01104db563d73cbb355b</application>
+        <file_path/>
+        <instance_id>787a408fdbf894d0431011f84896192c</instance_id>
+        <instance_name>dev104367</instance_name>
+        <name>sn_pipeline_environment_3045c3a387c741104db563d73cbb354c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_pipeline_environment"><sn_pipeline_environment action="INSERT_OR_UPDATE"><instance_credential display_value="sn_docker_spoke.Docker">adf80925db0bd300dd14596e5e96198c</instance_credential><instance_id>787a408fdbf894d0431011f84896192c</instance_id><instance_type>dev</instance_type><instance_url>https://dev104367.service-now.com</instance_url><is_controller>false</is_controller><name>Dev environment</name><sys_class_name>sn_pipeline_environment</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-30 10:15:54</sys_created_on><sys_id>3045c3a387c741104db563d73cbb354c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Dev environment</sys_name><sys_package display_value="Request for broken/damaged item" source="x_703590_request_0">0029ef9f878b01104db563d73cbb355b</sys_package><sys_policy/><sys_scope display_value="Request for broken/damaged item">0029ef9f878b01104db563d73cbb355b</sys_scope><sys_update_name>sn_pipeline_environment_3045c3a387c741104db563d73cbb354c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-30 10:16:09</sys_updated_on></sn_pipeline_environment></record_update>]]></payload>
+        <payload_hash>1810432599</payload_hash>
+        <record_name>Dev environment</record_name>
+        <reverted_from/>
+        <source>cc29ef9f878b01104db563d73cbb3575</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-30 10:16:09</sys_created_on>
+        <sys_id>dd368be387c741104db563d73cbb3559</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18079f87cfe0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-30 10:16:09</sys_updated_on>
+        <type>Environment</type>
+        <update_guid>19368be33ac741107dbfc6f4826a0e59</update_guid>
+        <update_guid_history>19368be33ac741107dbfc6f4826a0e59:1810432599,752647a3f5c741108354f66aba13daa3:628692000</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Dev environment">8fc64fe387c741104db563d73cbb35f8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-30 10:18:44</sys_created_on>
+        <sys_db_object display_value="" name="sn_pipeline_environment">sn_pipeline_environment</sys_db_object>
+        <sys_id>163ef012b79b44cb877595305d370cf9</sys_id>
+        <sys_metadata>3045c3a387c741104db563d73cbb354c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dev environment</sys_name>
+        <sys_package display_value="Request for broken/damaged item" source="x_703590_request_0">0029ef9f878b01104db563d73cbb355b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Request for broken/damaged item">0029ef9f878b01104db563d73cbb355b</sys_scope>
+        <sys_scope_delete display_value="">1ba3e1ec2ae84d7285997b6eb1b3f7b1</sys_scope_delete>
+        <sys_update_name>sn_pipeline_environment_3045c3a387c741104db563d73cbb354c</sys_update_name>
+        <sys_update_version display_value="sn_pipeline_environment_3045c3a387c741104db563d73cbb354c">dd368be387c741104db563d73cbb3559</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-30 10:18:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

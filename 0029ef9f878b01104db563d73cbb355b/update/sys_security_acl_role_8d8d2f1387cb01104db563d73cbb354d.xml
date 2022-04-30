@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-29 18:29:25</sys_created_on>
+        <sys_id>8d8d2f1387cb01104db563d73cbb354d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.703590.request-for-broken.damaged-item.x_703590_request_0.items requestor</sys_name>
+        <sys_package display_value="Request for broken/damaged item" source="x_703590_request_0">0029ef9f878b01104db563d73cbb355b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request for broken/damaged item">0029ef9f878b01104db563d73cbb355b</sys_scope>
+        <sys_security_acl display_value="x.703590.request-for-broken.damaged-item">498da3d387cb01104db563d73cbb35a9</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8d8d2f1387cb01104db563d73cbb354d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-29 18:29:25</sys_updated_on>
+        <sys_user_role display_value="x_703590_request_0.items requestor" name="x_703590_request_0.items requestor">fd7d2bd387cb01104db563d73cbb359f</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
